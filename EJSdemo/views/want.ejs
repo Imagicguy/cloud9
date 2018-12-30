@@ -1,0 +1,8 @@
+<% include partials/header%>
+<h1>you want a dog like that: <%= thingVar.toUpperCase()   %></h1>
+<% if (thingVar.toLowerCase() === "shiba"){ %>
+<img src = "https://static.boredpanda.com/blog/wp-content/uploads/2017/04/cute-dog-shiba-inu-ryuji-japan-57.jpg">
+<% } else { %>
+    <p>we dont have this dog, sry...</p>
+<% } %>
+<% include partials/footer %>
